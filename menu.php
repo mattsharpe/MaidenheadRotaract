@@ -1,5 +1,5 @@
-<div class="well sidebar-nav">
-  <ul class="nav nav-list collapse in">
+<div class="well sidebar-nav collapse in">
+  <ul class="nav nav-list">
     
     <li class="nav-header">What we're up to</li>
     <li><a href="events.php">Upcoming Events</a></li>
