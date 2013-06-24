@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="ngSanitize">
+<head>
+  <meta charset="utf-8">
+  <title>Last Month's Events</title>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-sanitize.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <style>
+    p, h3{
+      font-family: "open sans", Helvetica, Arial, sans-serif;
+    }
+    span.name{text-transform: capitalize;}
+  </style>
+  <script>
+    var $j = jQuery.noConflict();
+    $j(function() {
+      $j("#datepicker").datepicker();
+    });
+  </script>
+</head>
+<body ng-controller="MinutesController">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <h3>Past events </h2>
+          <div class="row-fluid" ng-repeat="event in events">
+            <h3>{{event.name}}</h3>
+            <p ng-bind-html="event.description"></p>
+            <p>
+              <strong>{{event.yes_rsvp_count}} attended: </strong>
+              <span class="name" ng-repeat="rsvp in event.yes_rsvps">
+                {{rsvp.member.name}}{{$last && ' ' || ', '}}
+              </span>
+            </p>
+          </div>
+    </div>
+  </div>
+</body>
+</html>
