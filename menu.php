@@ -1,25 +1,30 @@
 <div class="well sidebar-nav">
-  <ul class="nav nav-list">
+  <ul class="nav nav-list collapse in">
+    
     <li class="nav-header">What we're up to</li>
     <li><a href="events.php">Upcoming Events</a></li>
     <li><a href="social.php">Social</a></li>
     <li><a href="community.php">Community</a></li>
     <li><a href="fundraising.php">Fundraising</a></li>
-	<li><a href="#contactUs" data-toggle="modal">Contact Us</a></li>
-	<li class="nav-header">About Rotaract</li>
+    <li><a href="#contactUs" data-toggle="modal">Contact Us</a></li>
+
+    <li class="nav-header">About Rotaract</li>
     <li><a href="what-is-rotaract.php">What is Rotaract</a></li>		
-	<li class="nav-header">About Us</li>	
-	<li><a href="targets.php">Our Targets</a></li>         
+    
+    <li class="nav-header">About Us</li>	
+    <li><a href="targets.php">Our Targets</a></li>         
     <li><a href="council.php">The Council</a></li>
-	<li><a href="newsletters.php">Newletters</a></li>
+    <li><a href="newsletters.php">Newletters</a></li>
     <li><a href="glimmer-of-brilliance.php">Glimmer of Brilliance</a></li>
     <li><a href="club-awards.php">Club Awards</a></li>
-	<li class="nav-header">Our Biggest Events</li>
-	<li><a href="cheese-and-wine-quiz.php">Cheese and Wine Quiz</a></li>
-	<li><a href="oap-christmas-party.php">OAP Christmas Party</a></li>
+    
+    <li class="nav-header">Our Biggest Events</li>
+    <li><a href="cheese-and-wine-quiz.php">Cheese and Wine Quiz</a></li>
+    <li><a href="oap-christmas-party.php">OAP Christmas Party</a></li>
     <li><a href="tough-mudder.php">Tough Mudder</a></li>
     <li><a href="maidenheads-got-talent.php">Maidenhead's Got Talent</a></li>	
-	<li><a href="shelterbox-sleep-out.php">ShelterBox Sleep Out</a></li>	
+    <li><a href="shelterbox-sleep-out.php">ShelterBox Sleep Out</a></li>	
+    
     <li class="nav-header">Come and join in this week</li>
     <!--Grab from meetup? Should probably cache events on the server perhaps, minimise chatter to meetup API-->
     <li><a href="#"><i class="icon-calendar"></i>Tuesday 4/6/2013<br>Club Meeting at the Rose</a></li>

@@ -55,22 +55,4 @@
 		$j("#submitbtn").click(function() {  
 		});*/
     </script>
-
-<script> <!-- remove this themeroller -->
-
-/*	$j.getJSON("http://api.bootswatch.com/", function(response){
-		$j.each(response.themes, function(){
-			$j("ul#themes").append("<li><a href='#'' rel='"+ this.cssMin +"'>" + this.name + "</a></li>");
-		});
-
-		$j('#theme_switcher ul li a').bind('click',
-			function(e) {
-				$j("#switch_style").attr("href", $j(this).attr('rel'));
-				return false;
-			}
-		);*/
-//	});
-
-</script>
-
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
