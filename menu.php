@@ -1,5 +1,5 @@
 <div class="well sidebar-nav collapse in">
-  <ul class="nav nav-list">
+  <ul class="nav nav-list" id="menuList">
     
     <li class="nav-header">What we're up to</li>
     <li><a href="events.php">Upcoming Events</a></li>
@@ -26,10 +26,8 @@
     <li><a href="shelterbox-sleep-out.php">ShelterBox Sleep Out</a></li>	
     
     <li class="nav-header">Come and join in this week</li>
+    <li id="loadingEvents"><i class="icon-spinner icon-spin"></i> Loading events from Meetup...</li>
     <!--Grab from meetup? Should probably cache events on the server perhaps, minimise chatter to meetup API-->
-    <li><a href="#"><i class="icon-calendar"></i>Tuesday 4/6/2013<br>Club Meeting at the Rose</a></li>
-    <li><a href="#"><i class="icon-calendar"></i>Thursday 6/6/2013<br>Open Kitchen Volunteering</a></li>
-    <li><a href="#"><i class="icon-calendar"></i>Friday 7/6/2013<br> Taplow Court Concert</a></li>
   </ul>
 </div><!--/.well -->
 
