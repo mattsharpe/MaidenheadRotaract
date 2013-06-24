@@ -44,6 +44,66 @@
 					<br>
 					<p>Take a look at our photos showing the kind of community work that we get involved with:</p>
 					
+					<div class="row">
+						<ul class="thumbnails">
+							<li class="span3" align="center">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157634068823859/" title="Maidenhead's Got Talent" target="_blank">
+									<img src="http://farm8.staticflickr.com/7388/9018276738_0b3b8c6c64_q.jpg" style="margin:auto;" class="thumbnail">
+								</a>
+								<h5 align="center" class="muted">Maidenhead's Got Talent</h5>
+							</li>
+						
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157633909691118/" title="Race For Life" target="_blank">
+									<img src="http://farm8.staticflickr.com/7308/8940158803_9660cdd7ee_q.jpg" style="margin:auto;" class="thumbnail"></a>
+								<h5 align="center" class="muted">Race For Life</h5>
+							</li>
+							
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157633175906245/" title="Make Space For Life" target="_blank">
+									<img src="http://farm9.staticflickr.com/8384/8624157915_0f82f1064c_q.jpg" style="margin:auto;" class="thumbnail"></a>
+								<h5 align="center" class="muted">Make Space For Life</h5>
+							</li>
+							
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157632628707088/" title="OAP Christmas Party" target="_blank">
+									<img src="http://farm9.staticflickr.com/8214/8280416005_1fb707f634_q.jpg" style="margin:auto;" class="thumbnail"></a>
+								<h5 align="center" class="muted">OAP Christmas Party</h5>
+							</li>
+							
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157632164194066/" class="thumbnail" title="OAP Christmas Party" target="_blank"><img src="http://farm9.staticflickr.com/8067/8242379584_f92db8ccf0_q.jpg"></a>
+								<h5 align="center" class="muted">Open Kitchen Volunteering</h5>
+							</li>
+							
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157632159890923/" class="thumbnail" title="Daffodil Planting" target="_blank"><img src="http://farm9.staticflickr.com/8058/8241302259_23df7cd576_q.jpg"></a>
+								<h5 align="center" class="muted">Daffodil Planting</h5>
+							</li>
+							
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157631504890948/" class="thumbnail" title="Horse and Dog Show" target="_blank"><img src="http://farm9.staticflickr.com/8440/7973560614_41a517f0d5_q.jpg"></a>
+								<h5 align="center" class="muted">Horse and Dog Show</h5>
+							</li>
+							
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157631504808234/" class="thumbnail" title="Boundary Walk Booklet" target="_blank"><img src="http://farm9.staticflickr.com/8035/7973469710_c2e8efb5a0_q.jpg"></a>
+								<h5 align="center" class="muted">Boundary Walk Booklet</h5>
+							</li>
+							
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157630806931086/" class="thumbnail" title="Windsor Horse Rangers" target="_blank"><img src="http://farm9.staticflickr.com/8009/7670257892_2dc475a29e_q.jpg"></a>
+								<h5 align="center" class="muted">Windsor Horse Rangers</h5>
+							</li>
+							
+							<li class="span3">
+								<a href="http://www.flickr.com/photos/82994563@N08/sets/72157630960898244/" class="thumbnail" title="Maidenhead Quilt" target="_blank"><img src="http://farm9.staticflickr.com/8289/7735951020_170572671d_q.jpg"></a>
+								<h5 align="center" class="muted">Maidenhead Quilt</h5>
+							</li>
+						</ul>
+					</div>
+
+					<!--
 					<div id="wrapper-fluid">
 						<div id="columns">
 							<div class="pin">
@@ -108,6 +168,7 @@
 							
 						</div>
 					</div>
+					-->
 
 				</div>
 				

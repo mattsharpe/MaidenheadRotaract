@@ -29,7 +29,7 @@
 					<p>Below you will find what we have coming up in the next week.</p>
 					<p>Take a look and if you want to come along to anything just get in touch with us by emailing <a href="mailto:maidenhead@rotaract.org.uk">maidenhead@rotaract.org.uk</a> or by contacting Sophie on 07818 066432.</p>
 					
-					<div ng-hide="events || error" class="alert"><i class="icon-spinner icon-spin"></i> Downloading the awesome from meetup...</div>
+					<div ng-hide="events || error" class="alert"><strong>Please wait</strong> Downloading the awesome from meetup</div>
 					<div ng-show="error" class="alert alert-block alert-error">
 						<button type="button" class="close" data-dismiss="alert">&times;</button>
 					  	<h4>Error :(</h4>

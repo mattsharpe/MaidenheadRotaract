@@ -1,33 +1,32 @@
 <div class="well sidebar-nav">
-  <ul class="nav nav-list" id="menuList">
+  <ul class="nav nav-list">
     <li class="nav-header">What we're up to</li>
     <li><a href="events.php">Upcoming Events</a></li>
     <li><a href="social.php">Social</a></li>
     <li><a href="community.php">Community</a></li>
     <li><a href="fundraising.php">Fundraising</a></li>
-    <li><a href="#contactUs" data-toggle="modal">Contact Us</a></li>
-    <!--<li><a href="#joinUs" role="button" class="btn" data-toggle="modal">Join Us</a></li>-->
-    <li class="nav-header">About Rotaract</li>
-
+	<li><a href="#contactUs" data-toggle="modal">Contact Us</a></li>
+	<li class="nav-header">About Rotaract</li>
     <li><a href="what-is-rotaract.php">What is Rotaract</a></li>		
-    <li class="nav-header">About Us</li>	
-    <li><a href="targets.php">Our Targets</a></li>         
+	<li class="nav-header">About Us</li>	
+	<li><a href="targets.php">Our Targets</a></li>         
     <li><a href="council.php">The Council</a></li>
-    <li><a href="newsletters.php">Newletters</a></li>
+	<li><a href="newsletters.php">Newletters</a></li>
+    <li><a href="glimmer-of-brilliance.php">Glimmer of Brilliance</a></li>
     <li><a href="club-awards.php">Club Awards</a></li>
-
-    <li class="nav-header">Our Biggest Events</li>
-    <li><a href="cheese-and-wine-quiz.php">Cheese and Wine Quiz</a></li>
-    <li><a href="oap-christmas-party.php">OAP Christmas Party</a></li>
+	<li class="nav-header">Our Biggest Events</li>
+	<li><a href="cheese-and-wine-quiz.php">Cheese and Wine Quiz</a></li>
+	<li><a href="oap-christmas-party.php">OAP Christmas Party</a></li>
     <li><a href="tough-mudder.php">Tough Mudder</a></li>
     <li><a href="maidenheads-got-talent.php">Maidenhead's Got Talent</a></li>	
-
+	<li><a href="shelterbox-sleep-out.php">ShelterBox Sleep Out</a></li>	
     <li class="nav-header">Come and join in this week</li>
-    <li id="loadingEvents"><i class="icon-spinner icon-spin"></i> Loading events from Meetup...</li>
     <!--Grab from meetup? Should probably cache events on the server perhaps, minimise chatter to meetup API-->
+    <li><a href="#"><i class="icon-calendar"></i>Tuesday 4/6/2013<br>Club Meeting at the Rose</a></li>
+    <li><a href="#"><i class="icon-calendar"></i>Thursday 6/6/2013<br>Open Kitchen Volunteering</a></li>
+    <li><a href="#"><i class="icon-calendar"></i>Friday 7/6/2013<br> Taplow Court Concert</a></li>
   </ul>
 </div><!--/.well -->
-
 
 <!-- Modal -->
 <div id="contactUs" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -69,7 +68,9 @@
                 </div>
               </div>
             </form>
-
+<!--
+		<div align="center"><p><iframe src="http://www.jotformpro.com/form/92495008136" frameborder="0" align="center" style="width:80%; height:230px; border:none;" scrolling="no"></iframe></p></div>
+-->
 		<p>Please also feel free to contact Sophie 07818 066432 or Robin on 07809 049774 or email us directly at <a href="mailto:maidenhead@rotaract.org.uk">maidenhead@rotaract.org.uk</a></p>
 		<p>Alternatively, if you're scared of the technologies above, you can also contact us via post at: 15 The Maltings, Church Street, Staines-upon-Thames, TW18 4XH.</p>
 	

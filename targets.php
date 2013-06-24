@@ -75,7 +75,7 @@
 							<div id="collapseFive" class="accordion-body collapse">
 								<div class="accordion-inner">
 									<p>Rotaract is an international organisation with more than 9,000 clubs over the world and we are twinned with the
-									<a href="http://www.tivolirotaract.net/" target="_blank">Rotaract Club of Tivoli</a> and, as of 2013, with the 
+									<a href="http://www.tivolirotaract.net/" target="_blank">Rotaract Club of Tivoli</a> and, as of May 2013, with the 
 									<a href="http://www.rotarysaintcloud.fr/379_p_21745/rotaract-saint-cloud.html" target="blank">Rotaract Club of Saint Cloud</a>.</p>
 									<p>We are aiming to continue to develop ties with our friends in Italy and France and hope to be able to get invovled with	a collaborative international fundraising project between our clubs.</p>
 									<p>We will also be hosting a visit to Maidenhead by both clubs next Spring.</p></div>

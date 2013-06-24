@@ -1,35 +1,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>    
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    <script src="js/meetup.js"></script>
-    
+
     <script>
-		
+
 		var $j = jQuery.noConflict();
-    	var meetup = new meetup();
-
-		var addEventsToMenu = function(){
-			var events = JSON.parse(sessionStorage.thisWeeksEvents);
-
-			$j.each(events, function(){
-				var link = $j("<a>")
-					.attr("href", this.event_url)
-					.attr("target", "_blank")
-					.append("<i class='icon-calendar'></i> ")
-					.append(new Date(this.time).toDateString())
-					.append("<br>")
-					.append(this.name)
-					.appendTo("ul#menuList");
-				
-				$j("ul#menuList").append($j("<li/>").append(link));
-			});
-
-			$j("li#loadingEvents").remove();
-		}
-
-		meetup.getThisWeeksEvents(addEventsToMenu);
-
 /*
     	$j("#contactForm").validate({
 
@@ -80,3 +55,22 @@
 		$j("#submitbtn").click(function() {  
 		});*/
     </script>
+
+<script> <!-- remove this themeroller -->
+
+/*	$j.getJSON("http://api.bootswatch.com/", function(response){
+		$j.each(response.themes, function(){
+			$j("ul#themes").append("<li><a href='#'' rel='"+ this.cssMin +"'>" + this.name + "</a></li>");
+		});
+
+		$j('#theme_switcher ul li a').bind('click',
+			function(e) {
+				$j("#switch_style").attr("href", $j(this).attr('rel'));
+				return false;
+			}
+		);*/
+//	});
+
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

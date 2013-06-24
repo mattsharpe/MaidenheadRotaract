@@ -2,7 +2,7 @@
 <html lang="en" ng-app>
 	<head>
 		<meta charset="utf-8">
-		<title>Tough Mudder - OAP Christmas Party</title>
+		<title>Maidenhead Rotaract - OAP Christmas Party</title>
 		<meta name="description" content="">
 		<meta name="author" content="">
 
