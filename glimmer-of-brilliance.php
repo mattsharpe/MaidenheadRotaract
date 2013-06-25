@@ -36,7 +36,7 @@
 							
 						<div class="row-fluid">
 							<div class="span6">
-								<p><img src="img/gob/matt_mudder.jpg" class="img-rounded"></p>
+								<p><img src="img/gob/matt_mudder.jpg" class="img-polaroid"></p>
 							</div>
 						</div>
 						
@@ -56,7 +56,7 @@
 
 						<div class="row-fluid">
 							<div class="span6">
-								<p><img src="img/gob/becky_tiger.jpg" class="img-rounded"></p>
+								<p><img src="img/gob/becky_tiger.jpg" class="img-polaroid"></p>
 							</div>
 						</div>
 					

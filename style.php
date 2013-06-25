@@ -12,46 +12,25 @@
 
 <style type="text/css">
 
-  body {
+  body { font-family: "open sans", Helvetica, Arial, sans-serif;}
 
-    font-family: "open sans", Helvetica, Arial, sans-serif;
-
-  }
-
-  .sidebar-nav {
-
-    padding: 9px 0;
-
-  }
+  .sidebar-nav { padding: 9px; }
 
   @media (max-width: 980px) {
 
-    /* Enable use of floated navbar text */
-
     .navbar-text.pull-right {
-
       float: none;
-
       padding-left: 5px;
-
       padding-right: 5px;
-
     }
-
-
 
     .clear-navbar{
-
       display:none;
-
     }
-
   }
 
   .clear-navbar{
-
     margin-top:60px;
-
   }
 
 </style>    

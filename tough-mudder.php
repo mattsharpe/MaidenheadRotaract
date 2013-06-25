@@ -45,7 +45,7 @@
 					<p>Click through the profiles below to find out a little bit about each of our team members:</p>
 
 					<div class="span7" ng-show="activeMudder">
-						<img width="170px" height="170px" ng-src="{{activeMudder.photo}}" class="img-polaroid pull-left" alt="{{activeMudder.name}}" Title="{{activeMudder.name}}"/>
+						<img ng-src="{{activeMudder.photo}}" class="img-polaroid pull-left" alt="{{activeMudder.name}}" Title="{{activeMudder.name}}" style="height:180px; width:180px"/>
 						<h2 class="pull-right"> {{activeMudder.name}} <span class="muted">(Tough Mudder)</span></h2>
 
 						<div ng-repeat="question in activeMudder.questions" class="span7">
@@ -56,7 +56,7 @@
 					</div>
 
 					<div ng-repeat="mudder in mudders" class="pull-left" style="text-align:center; margin:10px" ng:click="show(mudder)">
-						<a href=""><img width="170px" height="170px" ng-src="{{mudder.photo}}" class="img-polaroid" alt="{{mudder.name}}" Title="{{mudder.name}}"/>
+						<a href=""><img style="height:180px; width:180px" ng-src="{{mudder.photo}}" class="img-polaroid" alt="{{mudder.name}}" Title="{{mudder.name}}"/>
 						<p>{{mudder.name}}</p></a>
 					</div>
 				</div>

@@ -1,4 +1,7 @@
 <div class="well sidebar-nav collapse in">
+  <button type="button" class="btn btn-mini pull-right" data-toggle="collapse" data-target=".sidebar-nav">
+    <i class="icon-angle-down"></i>
+  </button>
   <ul class="nav nav-list" id="menuList">
     
     <li class="nav-header">What we're up to</li>
